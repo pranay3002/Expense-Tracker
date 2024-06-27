@@ -15,3 +15,5 @@ Interactive User Interface: Created components for displaying the balance, incom
 Real-Time Notifications: Integrated vue-toastification to provide users with real-time feedback on transaction additions and deletions.
 
 State Management: Managed application state with Vue's reactive ref and lifecycle hooks for efficient and responsive UI updates.
+
+Live Preview- http://localhost:5173/
