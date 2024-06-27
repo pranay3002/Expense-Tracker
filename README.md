@@ -1,29 +1,14 @@
-# expense-tracker
+Project Description: Developed a full-featured expense tracker application using Vue.js, allowing users to manage their finances by tracking their income and expenses.
+Key Features:
 
-This template should help get you started developing with Vue 3 in Vite.
+Dynamic Balance Calculation: Implemented real-time calculation of total balance, income, and expenses using Vue.js computed properties.
 
-## Recommended IDE Setup
+Persistent Data Storage: Utilized localStorage for saving and retrieving transactions, ensuring data persistence across sessions.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Interactive User Interface: Created components for displaying the balance, income and expenses breakdown, transaction list, and a form for adding new transactions.
 
-## Customize configuration
+Real-Time Notifications: Integrated vue-toastification to provide users with real-time feedback on transaction additions and deletions.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+State Management: Managed application state with Vue's reactive ref and lifecycle hooks for efficient and responsive UI updates.
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Live Preview: http://localhost:5173/
